@@ -12,7 +12,6 @@ order: 1
 #### PROFESSIONAL SUMMARY
 * Overall experience of 7 years in Credit Operations, Loan Processing and Data Analysis roles.
 * Experienced in Data Analysis, MIS Reporting and Dashboards using tools like SQL, Excel and Tableau.
-* Maintained strong relationships with customers and key stakeholders from diverse cultures.
 * Key Contributions include suggesting and implementing Process Improvements to the existing process and implementation of changes due to regulatory and policy guidelines. Also served as the SME (Subject Matter Expert) for process operations and training new team members.
 
 #### CORE PROFICIENCIES
