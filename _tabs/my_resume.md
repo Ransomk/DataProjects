@@ -4,7 +4,7 @@ icon: fas fa-info-circle
 order: 1
 ---
 
-# RANSOM KUMAR
+## RANSOM KUMAR
 
 |Bangalore, India  | E-mail: ransom.kumar2@gmail.com | Mobile: +91-7899037708/+91-9916826430  
 [LinkedIn](https://www.linkedin.com/in/ransom-kumar-31a89585/) |
