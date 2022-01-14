@@ -79,4 +79,8 @@ compliance requirements and regulations for lending are met while making decisio
 * B.Sc. in Mathematics – from Mumbai University (Year-2011) - Percent Score – 92.25%
 > Noted Accomplishment: Institutional Topper in Mathematics in B.Sc. (Graduation). 
 
+#### PROFILE LINKS
+[Visit my Tableau Public Profile](https://public.tableau.com/app/profile/ransom.kumar)
+[Visit my Github Profile](https://github.com/Ransomk) 
+[Visit my LinkedIn Profile](https://www.linkedin.com/in/ransom-kumar-31a89585/)
 
