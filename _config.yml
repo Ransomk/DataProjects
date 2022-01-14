@@ -20,7 +20,7 @@ timezone: Asia/Kolkata
 
 title: Ransom's Data Projects                          # the main title
 
-tagline: Data analysis and data science    # it will display as the sub-title
+tagline: My Data analysis and data science projects    # it will display as the sub-title
 
 description: >-                        # used by seo meta and the atom feed
   This is a collection of my data science and data analysis 
