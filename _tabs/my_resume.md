@@ -6,8 +6,7 @@ order: 1
 
 ## RANSOM KUMAR
 
-|Bangalore, India  | E-mail: ransom.kumar2@gmail.com | Mobile: +91-7899037708/+91-9916826430  
-[LinkedIn](https://www.linkedin.com/in/ransom-kumar-31a89585/) |
+|Bangalore, India  | E-mail: ransom.kumar2@gmail.com | Mobile: +91-7899037708/+91-9916826430 |
 
 #### PROFESSIONAL SUMMARY
 * Overall experience of 7 years in Credit Operations, Loan Processing and Data Analysis roles.
@@ -17,7 +16,7 @@ order: 1
 #### CORE PROFICIENCIES
 * Python, R, SQL, Tableau, MS Excel
 * Data analysis using Python libraries like Pandas and Matplotlib. 
-* Machine Learning using Sklearn
+* Machine Learning using Sci-kit learn
 * MIS Reporting and Dashboards
 * Financial Analysis & Credit Appraisal
 * Staff Training and Development
@@ -81,6 +80,8 @@ compliance requirements and regulations for lending are met while making decisio
 
 #### PROFILE LINKS
 [Visit my Tableau Public Profile](https://public.tableau.com/app/profile/ransom.kumar)
+
 [Visit my Github Profile](https://github.com/Ransomk) 
+
 [Visit my LinkedIn Profile](https://www.linkedin.com/in/ransom-kumar-31a89585/)
 
