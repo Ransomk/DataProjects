@@ -34,16 +34,14 @@ Walmart runs several promotional markdown events throughout the year. These mark
 Here are a few insights based on the project:
 1. Based on the analysis and models built for Store #1 we see that none of the variables in the data captured reflect as accurate predictors of Sales/Demand.
 2. Suggest to build and test models for other stores randomly to again verify if there is no strong predictors for Sales. As the analysis of sales data store by store revealed that the stores have some differences in terms of average sales volume as well as Variability of sales. Also stores located in different regions are not always fully homogeneous.
-3. We also see that month appears to impact the sales quite well as there were some trends seen in the month- wise sales analysis.
+3. We also see that month appears to impact the sales quite well as there were some trends seen in the month- wise sales analysis. <br/>
+    ![Monthwise_sales](11-Monthly-Average-Sales.png){: w="340" .left} 
+    ![Boxplot_monthly_sales](12-Box-Plot-Monthly-Sales-Analysis.png){: w="340" .right}
+    ![Semester_sales](15-Semester-Average-Sales.png){: w="340" .left} 
+    ![Boxplot_semesterwise_sales](16-Box-Plot-Semester-Sales-Analysis.png){: w="340" .right}
 
-![Monthwise_sales](11-Monthly-Average-Sales.png){: w="360" .left} 
-![Boxplot_monthly_sales](12-Box-Plot-Monthly-Sales-Analysis.png){: w="360" .right}
-![Semester_sales](15-Semester-Average-Sales.png){: w="360" .left} 
-![Boxplot_semesterwise_sales](16-Box-Plot-Semester-Sales-Analysis.png){: w="360" .right}
-
-4. The hypothesis tested for CPI, Unemployment and Fuel price revealed again that which economic factors like CPI and unemployment do show some impact on sales. They cannot accurately help predict the sales.
-![Correlation_pairplot](28-Plot-Weekly-Sales-vs-other-variables.png)
-
+4. The hypothesis tested for CPI, Unemployment and Fuel price revealed again that which economic factors like CPI and unemployment do show some impact on sales. They cannot accurately help predict the sales.<br/>
+    ![Correlation_pairplot](28-Plot-Weekly-Sales-vs-other-variables.png)
 5. Holiday v/s non-holiday sales comparison showed that for most Holidays except Christmas the Average Sales are higher. While this was a good study if the overall revenue was under consideration. As suggested this comparison is limited when trying to analyse units sold due to the fact that the prices of goods during the holidays. Since the date available is only in amount sold in dollar value. This doesn’t help identify the increase in number of units of stock/goods that were sold due to the discounts provided in the Holidays. So from an inventory perspective to predict the number of units which Walmart would need to keep in stock this does not help provide any clear insight. Although this could be assessed if the discount rates were known for various categories.
 6. Finally to conclude. For Walmart to better predict the sales/demand and create a model to predict the inventory requirements to prevent stockouts. The model would need to consider or incorporate other variables which may have more significant impact on sales. These could be for example. Season of the year, Median neighbourhood incomes, Inflation rates etc. which could affect sales of some or many products. Also analysis of products based on categories is recommended as not all products in a supermarket have the same sales/demand requirements all throughout the year.
 Walmart could try to focus on specific major product categories and then try to see if they can create more accurate predictions for the demand for the categories alone. This could help in ensuring that demand for such products can be predicted well and stock can be maintained according to the anticipated demand.
