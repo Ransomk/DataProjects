@@ -81,7 +81,7 @@ compliance requirements and regulations for lending are met while making decisio
 #### PROFILE LINKS
 [Visit my Tableau Public Profile](https://public.tableau.com/app/profile/ransom.kumar)
 
-[Visit my Github Profile](https://github.com/Ransomk) 
+[Visit my Github Profile](https://github.com/Ransomk?tab=repositories) 
 
 [Visit my LinkedIn Profile](https://www.linkedin.com/in/ransom-kumar-31a89585/)
 

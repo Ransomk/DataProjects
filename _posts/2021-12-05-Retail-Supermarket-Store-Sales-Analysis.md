@@ -7,11 +7,11 @@ img_path: /assets/img/2021-12-05-Retail-Supermarket-Store-Sales-Analysis
 ---
 
 ###  Summary
-This is an academic project completed by me as part of my Post Graduate program in Data Science from Purdue University through Simplilearn. The project was towards the completion of Data Science with R module. 
+This is an academic project completed by me as part of my Post Graduate program in Data Science from Purdue University through Simplilearn. The project was towards the completion of Data Science with R module.
 
 You can view the full project code on this [Github link](https://github.com/Ransomk/Retail-Supermarket-Store-Sales-Analysis)
 
-The project includes an analysis of a Giant retail supermarket chain's sales data for a period of 2.5 years using R to build a model for forecasting Sales and demand.
+The project includes an analysis of a Giant retail supermarket chain's sales data for a period of 2.5 years using R to build a model for forecasting Sales and demand.  
 The project also includes exploratory analysis of the store data to review the effect of markdowns due to holidays on the sales. Do the markdowns and discounts help sales during the holiday season. Along with this there was also general insights about the sales across the various locations/outlets to identify stores with most sales and variation in sales across stores and across months etc.
 
 ### Bussiness Scenario
@@ -37,9 +37,8 @@ Here are a few insights based on the project:
 3. We also see that month appears to impact the sales quite well as there were some trends seen in the month- wise sales analysis. <br/>
     ![Monthwise_sales](11-Monthly-Average-Sales.png){: w="340" .left} 
     ![Boxplot_monthly_sales](12-Box-Plot-Monthly-Sales-Analysis.png){: w="340" .right}
-    <br/>
     ![Semester_sales](15-Semester-Average-Sales.png){: w="340" .left} 
-    ![Boxplot_semesterwise_sales](16-Box-Plot-Semester-Sales-Analysis.png){: w="340" .right}<br/>
+    ![Boxplot_semesterwise_sales](16-Box-Plot-Semester-Sales-Analysis.png){: w="340" .right}
 4. The hypothesis tested for CPI, Unemployment and Fuel price revealed again that which economic factors like CPI and unemployment do show some impact on sales. They cannot accurately help predict the sales.<br/>
     ![Correlation_pairplot](28-Plot-Weekly-Sales-vs-other-variables.png){: w="700" .normal} 
 5. Holiday v/s non-holiday sales comparison showed that for most Holidays except Christmas the Average Sales are higher. While this was a good study if the overall revenue was under consideration. As suggested this comparison is limited when trying to analyse units sold due to the fact that the prices of goods during the holidays. Since the date available is only in amount sold in dollar value. This doesn’t help identify the increase in number of units of stock/goods that were sold due to the discounts provided in the Holidays. So from an inventory perspective to predict the number of units which Walmart would need to keep in stock this does not help provide any clear insight. Although this could be assessed if the discount rates were known for various categories.
