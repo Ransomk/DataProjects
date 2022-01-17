@@ -6,7 +6,7 @@ comments: false
 img_path: /assets/img/2021-12-05-Retail-Supermarket-Store-Sales-Analysis
 ---
 
-### Summary
+### Summary-
 
 The project includes an analysis of a Giant retail supermarket chain's sales data for a period of 2.5 years using R to build a model for forecasting Sales and demand.  
 The project also includes exploratory analysis of the store data to review the effect of markdowns due to holidays on the sales. Do the markdowns and discounts help sales during the holiday season. Along with this there was also general insights about the sales across the various locations/outlets to identify stores with most sales and variation in sales across stores and across months etc.
@@ -26,10 +26,10 @@ Walmart runs several promotional markdown events throughout the year. These mark
  - Which store/s has good quarterly growth rate in Q3’2012
  - Some holidays have a negative impact on sales. Find out holidays which have higher sales than the mean sales in non-holiday season for all stores together
 2. Creating a monthly and semester view of sales in units and insights on the same.  
-    ![Monthwise_sales](11-Monthly-Average-Sales.png){: w="340" .left} 
-    ![Boxplot_monthly_sales](12-Box-Plot-Monthly-Sales-Analysis.png){: w="340" .right}
-    ![Semester_sales](15-Semester-Average-Sales.png){: w="340" .left} 
-    ![Boxplot_semesterwise_sales](16-Box-Plot-Semester-Sales-Analysis.png){: w="340" .right}
+    ![Monthwise_sales](11-Monthly-Average-Sales.png){: w="340"} 
+    ![Boxplot_monthly_sales](12-Box-Plot-Monthly-Sales-Analysis.png){: w="340"} 
+    ![Semester_sales](15-Semester-Average-Sales.png){: w="340"} 
+    ![Boxplot_semesterwise_sales](16-Box-Plot-Semester-Sales-Analysis.png){: w="340"}
 3. Building prediction models to forecast demand based on the data features.
 4. Linear Regression models built and analysed for features leading to best possible accuracy.
 5. Hypothesize if CPI, unemployment, and fuel price have any impact on sales.

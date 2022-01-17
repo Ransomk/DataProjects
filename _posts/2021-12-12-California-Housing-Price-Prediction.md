@@ -3,10 +3,10 @@ title: California Housing Price Prediction
 date: 2021-12-12 12:37:00 +0530 
 tags: [Machine learning, Python, Exploratory Data Analysis, Linear Regression, numpy, pandas, sklearn, seaborn, matplotlib]
 comments: false
-img_path: /assets/img/
+img_path: /assets/img/2021-12-12-California-Housing-Price-Prediction
 ---
 
-### Summary
+### Summary-
 
 The project includes analysis on the California Housing Dataset with some Exploratory data analysis .
 There was encoding of categorical data using the one-hot encoding present in pandas.
@@ -28,19 +28,24 @@ The US Census Bureau has published California Census Data which has 10 types of 
     Fill the missing values with the mean of the respective column.
 3. Encode categorical data :
     Convert categorical column in the dataset to numerical data.
-4. Split the dataset :
+4. Perform some basic EDA to review the features and correlation.
+    ![Pairplot between feature variables](Seaborn-pairplots.png){: w="1000"}
+    ![Correlation Matrix](correlation-matrix.png)
+5. Split the dataset :
     Split the data into 80% training dataset and 20% test dataset.
-5. Standardize data :
+6. Standardize data :
     Standardize training and test datasets.
-6. Perform Linear Regression :
+7. Perform Linear Regression :
     - Perform Linear Regression on training data.
     - Predict output for test dataset using the fitted model.
     - Print root mean squared error (RMSE) from Linear Regression.
-7. Additional analysis : Perform Linear Regression with only one independent variable
+8. Additional analysis : Perform Linear Regression with only one independent variable
     - Extract just the median_income column from the independent variables (from X_train and X_test).
     - Perform Linear Regression to predict housing values based on median_income.
     - Predict output for test dataset using the fitted model.
-    - Plot the fitted model for training data as well as for test data to check if the fitted model satisfies the test data.
+    - Plot the fitted model for training data as well as for test data to check if the fitted model satisfies the test data.<br/>
+        ![Plot of fitted model on Training data](Predicted-regression-line-on-training.png){: w="500"}
+        ![Plot of fitted model on Test data](Predicted-regression-line-on-test.png){: w="500"}
 
 
 ### Tools used:
