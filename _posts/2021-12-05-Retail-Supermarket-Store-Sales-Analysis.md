@@ -6,12 +6,15 @@ comments: false
 ---
 
 ###  Summary
-This is an academic project completed by me as part of my Post Graduate program in Data Science from Purdue University through Simplilearn. The project was towards the completion of Data Science with R module. </br>
-The project includes an analysis of a Giant retail supermarket chain's sales data for a period of 2.5 years using R to build a model for forecasting Sales and demand. </br>
+This is an academic project completed by me as part of my Post Graduate program in Data Science from Purdue University through Simplilearn. The project was towards the completion of Data Science with R module. 
+
+You can view the full project code on this [Github link](https://github.com/Ransomk/Retail-Supermarket-Store-Sales-Analysis)
+
+The project includes an analysis of a Giant retail supermarket chain's sales data for a period of 2.5 years using R to build a model for forecasting Sales and demand.
 The project also includes exploratory analysis of the store data to review the effect of markdowns due to holidays on the sales. Do the markdowns and discounts help sales during the holiday season. Along with this there was also general insights about the sales across the various locations/outlets to identify stores with most sales and variation in sales across stores and across months etc.
 
 ### Bussiness Scenario
-One of the leading retail stores in the US, Walmart, would like to predict the sales and demand accurately. There are certain events and holidays which impact sales on each day. There are sales data available for 45 stores of Walmart. The business is facing a challenge due to unforeseen demands and runs out of stock some times, due to the inappropriate machine learning algorithm. An ideal ML algorithm will predict demand accurately and ingest factors like economic conditions including CPI, Unemployment Index, etc. </br>
+One of the leading retail stores in the US, Walmart, would like to predict the sales and demand accurately. There are certain events and holidays which impact sales on each day. There are sales data available for 45 stores of Walmart. The business is facing a challenge due to unforeseen demands and runs out of stock some times, due to the inappropriate machine learning algorithm. An ideal ML algorithm will predict demand accurately and ingest factors like economic conditions including CPI, Unemployment Index, etc.
 Walmart runs several promotional markdown events throughout the year. These markdowns precede prominent holidays, the four largest of all, which are the Super Bowl, Labour Day, Thanksgiving, and Christmas. The weeks including these holidays are weighted five times higher in the evaluation than non-holiday weeks. Part of the challenge presented by this competition is modeling the effects of markdowns on these holiday weeks in the absence of complete/ideal historical data. Historical sales data for 45 Walmart stores located in different regions are available.
 
 ### Analysis Steps:
