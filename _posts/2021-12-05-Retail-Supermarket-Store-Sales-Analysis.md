@@ -1,5 +1,5 @@
 ---
-title: Retail Supermarket Store Sales Analysis
+title: Retail Supermarket Store Sales Analysis and Regression models in R
 date: 2021-12-05 13:45:00 +0530 
 tags: [Machine learning, R, Exploratory Data Analysis, Linear Regression]
 comments: false

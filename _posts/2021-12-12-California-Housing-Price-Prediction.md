@@ -1,5 +1,5 @@
 ---
-title: California Housing Price Prediction
+title: California Housing Price Prediction using Linear Regression in Python
 date: 2021-12-12 12:37:00 +0530 
 tags: [Machine learning, Python, Exploratory Data Analysis, Linear Regression, numpy, pandas, sklearn, seaborn, matplotlib]
 comments: false
@@ -14,7 +14,7 @@ Also standardization of the data and use of Linear Regression models from sklear
 
 You can view the full project code on this [Github link](https://github.com/Ransomk/California-Housing-Price-Prediction)
 
-Note: _This is an academic project completed by me as part of my Post Graduate program in Data Science from Purdue University through Simplilearn. The project was towards the completion of Data Science with R module._
+Note: _This is an academic project completed by me as part of my Post Graduate program in Data Science from Purdue University through Simplilearn. The project was towards the completion of Data Science with Python module._
 
 ### Bussiness Scenario
 The US Census Bureau has published California Census Data which has 10 types of metrics such as the population, median income, median housing price, and so on for each block group in California. The dataset also serves as an input for project scoping and tries to specify the functional and nonfunctional requirements for it. The project aims at building a model of housing prices to predict median house values in California using the provided dataset. This model should learn from the data and be able to predict the median housing price in any district, given all the other metrics. Districts or block groups are the smallest geographical units for which the US Census Bureau publishes sample data (a block group typically has a population of 600 to 3,000 people). There are 20,640 districts in the project dataset.
@@ -44,8 +44,8 @@ The US Census Bureau has published California Census Data which has 10 types of 
     - Perform Linear Regression to predict housing values based on median_income.
     - Predict output for test dataset using the fitted model.
     - Plot the fitted model for training data as well as for test data to check if the fitted model satisfies the test data.<br/>
-        ![Plot of fitted model on Training data](Predicted-regression-line-on-training.png){: w="500"}
-        ![Plot of fitted model on Test data](Predicted-regression-line-on-test.png){: w="500"}
+    ![Plot of fitted model on Training data](Predicted-regression-line-on-training.png){: w="500"}
+    ![Plot of fitted model on Test data](Predicted-regression-line-on-test.png){: w="500"}
 
 
 ### Tools used:
