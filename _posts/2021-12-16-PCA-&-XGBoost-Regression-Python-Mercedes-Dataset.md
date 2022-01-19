@@ -4,13 +4,16 @@ date: 2021-12-16 5:47:00 +0530
 tags: [Machine learning, Python, Principal Component Analysis, Dimensionality Reduction, Label Encoding, numpy, pandas, sklearn, XGBoost Regression, matplotlib]
 comments: false
 img_path: /assets/img/2021-12-16-PCA-&-XGBoost-Regression-Python-Mercedes-Dataset
+image:
+  src: /Pca-gif-explainer.gif
+  width: 778   # in pixels
+  height: 360   # in pixels
+  alt: PCA gif
 ---
 
 ### Summary-
 
 This project is based on data from the Mercedes Benz test bench for vehicles at the testing and quality assurance phase during the production cycle. The dataset consists of high number of feature columns. Key highlights from the project include - Dimensionality reduction using PCA and XGBoost Regression used after the dimensionality reduction to predict the time required to test the vehicles
-
-![PCA gif](Pca-gif-explainer.gif)
 
 You can view the full project code on this [Github link](https://github.com/Ransomk/PCA-and-XGBoost-Regression-Mercedes-Benz-test-data)
 

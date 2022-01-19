@@ -4,6 +4,11 @@ date: 2021-12-20 3:21:00 +0530
 tags: [Machine learning, Python, Natural Language Processing, Topic Modeling, Latent Dirchlet Allocation, POS-Tagging, numpy, pandas, nltk, gensim, matplotlib, pyLDAvis]
 comments: false
 img_path: /assets/img/2021-12-20-NLP-Project-Phone-Review-Analysis-and-Topic-Modelling-with-Latent-Dirichlet-Allocation
+image:
+  src: /lda-basic-viz.jpg
+  width: 638   # in pixels
+  height: 479   # in pixels
+  alt: LDA Basic Visual
 ---
 
 ### Summary- 
@@ -11,7 +16,7 @@ This is a Natural Language Processing project which includes analysis of buyer's
 
 You can view the full project code on this [Github link](https://github.com/Ransomk/NLP-Course-Project-Review-Analysis-and-Topic-Modeling-with-LDA)
 
-![LDA Basic Visual](lda-basic-viz.jpg)
+![LDA Basic Visual]()
 
 Note: _This is an academic project completed by me as part of my Post Graduate program in Data Science from Purdue University through Simplilearn. This project was towards the completion of Data Science Natural Language Processing (NLP) module._
 
