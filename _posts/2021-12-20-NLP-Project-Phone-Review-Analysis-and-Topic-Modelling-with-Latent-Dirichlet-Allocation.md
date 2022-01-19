@@ -1,13 +1,12 @@
 ---
-title: NLP Project - Phone Review Analysis and Topic Modeling with Latent Dirichlet Allocation in Python
+title: 💬⚙️ NLP Project - Phone Review Analysis and Topic Modeling with Latent Dirichlet Allocation in Python
 date: 2021-12-20 3:21:00 +0530 
 tags: [Machine learning, Python, Natural Language Processing, Topic Modeling, Latent Dirchlet Allocation, POS-Tagging, numpy, pandas, nltk, gensim, matplotlib, pyLDAvis]
 comments: false
 img_path: /assets/img/2021-12-20-NLP-Project-Phone-Review-Analysis-and-Topic-Modelling-with-Latent-Dirichlet-Allocation
 ---
 
-### Summary-
-
+### Summary- 
 This is a Natural Language Processing project which includes analysis of buyer's reviews/comments of a popular mobile phone by Lenovo from an e-commerce website. Analysis done for the project include pre-processing of text data such as word-tokenisation, lemmatisation. This is followed by Topic-modeling using Latent Dirichlet Allocation, POS tagging, and topic interpretation for business use
 
 You can view the full project code on this [Github link](https://github.com/Ransomk/NLP-Course-Project-Review-Analysis-and-Topic-Modeling-with-LDA)
