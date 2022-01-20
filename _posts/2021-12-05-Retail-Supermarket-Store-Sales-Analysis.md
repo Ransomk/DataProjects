@@ -4,11 +4,11 @@ date: 2021-12-05 13:45:00 +0530
 tags: [Machine learning, R, Exploratory Data Analysis, Linear Regression]
 comments: false
 img_path: /assets/img/2021-12-05-Retail-Supermarket-Store-Sales-Analysis
-# image:
-#   src: /Linear-Regression.png
-#   width: 895   # in pixels
-#   height: 389   # in pixels
-#   alt: Linear regression banner
+image:
+  src: /Linear-Regression.png
+  width: 895   # in pixels
+  height: 389   # in pixels
+  alt: Linear regression banner
 ---
 
 ### Summary-
