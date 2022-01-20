@@ -16,8 +16,6 @@ This is a Natural Language Processing project which includes analysis of buyer's
 
 You can view the full project code on this [Github link](https://github.com/Ransomk/NLP-Course-Project-Review-Analysis-and-Topic-Modeling-with-LDA)
 
-![LDA Basic Visual]()
-
 Note: _This is an academic project completed by me as part of my Post Graduate program in Data Science from Purdue University through Simplilearn. This project was towards the completion of Data Science Natural Language Processing (NLP) module._
 
 ### Bussiness Scenario
