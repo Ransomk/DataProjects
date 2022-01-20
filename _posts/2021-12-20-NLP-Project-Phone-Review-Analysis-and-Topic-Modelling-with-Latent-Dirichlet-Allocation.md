@@ -3,7 +3,7 @@ title: 💬⚙️ NLP Project - Phone Review Analysis and Topic Modeling with La
 date: 2021-12-20 3:21:00 +0530 
 tags: [Machine learning, Python, Natural Language Processing, Topic Modeling, Latent Dirchlet Allocation, POS-Tagging, numpy, pandas, nltk, gensim, matplotlib, pyLDAvis]
 comments: false
-img_path: /assets/img/2021-12-20-NLP-Project-Phone-Review-Analysis-and-Topic-Modelling-with-Latent-Dirichlet-Allocation
+# img_path: /assets/img/2021-12-20-NLP-Project-Phone-Review-Analysis-and-Topic-Modelling-with-Latent-Dirichlet-Allocation
 ---
 
 ### Summary- 
