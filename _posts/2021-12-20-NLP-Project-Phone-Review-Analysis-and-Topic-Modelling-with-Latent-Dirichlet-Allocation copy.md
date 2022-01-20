@@ -41,15 +41,19 @@ Help the business understand the voice of the customer by analyzing the reviews 
 3. Next we shall visualize the list of words by creating a barplot of the most common/frequently occuring words in the reviews text.
     - We first use FreqDist to find the most common 100 words.
     - Then build the visualization in a barplot using matplotlib.
-    ![Freq plot of most common words 1](common-words-freq-plot-1.png)  
+
+    ![Freq plot of most common words 1](common-words-freq-plot-1.png)
+
     The analysis reveals following -
        - There are some punctuations that still appear in the word tokens like '..' and '...'
        - Also the list consists of emojis which are not relevant for topic modeling
        - Further there are also just numbers - e.g. '1' and '2' which are not relevant 
        - And we can also remove the obvious and contextual stop words from the topic modeling perspective . These are context Words like 'phone','lenovo','mobile','k8','product'. 
-4. Based on the above review we can refine and add more stopwords and items to be removed. The removal can be done using string functions like isalnum() which checks if a word token is alphanumeric. Also elminated tokens which are only a single alphabet by checking len(word)!=1.  
+4. Based on the above review we can refine and add more stopwords and items to be removed. The removal can be done using   string functions like isalnum() which checks if a word token is alphanumeric. Also elminated tokens which are only a  single alphabet by checking len(word)!=1.  
 Through this pre-processing we have now narrowed down the reviews to the most relevant words/nouns in the text for the topic modeling phase. Again we have plotted the most common words after this second round of word filtering.
+
     ![Freq plot of final words](final-words-freq-plot-2.png)
+
 5. Model Building :  
     Create a topic model using LDA on the cleaned-up data with 12 topics.
     - Print out the top terms for each topic.
@@ -60,21 +64,27 @@ Through this pre-processing we have now narrowed down the reviews to the most re
 
     In simple terms LDA tries to create a model of what words appear in a particular manner or context together based on the frequency distributions and it aligns/classify the words into different topics. Furthermore it segments the entire corpus/document into these topics.  
     _Example : If we consider a news article . A given article could be based on only a few topics. Like an article in the sports section will largely focus on sports. At times the article may refer to some related topic like science if the article relates to some advances or findings in sports nutrition or excercise etc. But for the most part we can usually infer that a single article is mostly homogenous when it comes to the topics that it consists of. Again within a given topic like sports one can expect some words to be more frequent than others. E.g. In a sports article we are more like to see words like - ball, score, half-time, innings rather than words like data-science, javascript, python, C# , Machine learning._
+
      ![LDA explainer](lda-explainer-2.png)
+
     So the LDA algorithm performs this sorting or clustering of documents into a collection of topics and further it creates the topics by allocating words to the topics. The algorithm uses a frequency based (i.e. probabalistic approach).Like how many times does a particular word appear in the topic and how frequently is the topic part of the document. Based on this it creates a model of the document in an unsupervised fashion. The topics themselves like sports, politics, fashion are not named by the algorithm, this is up to the analyst to decide on the topic names based on the collection of words. So similar to clustering algorithms it creates clusters but it cannot actually describe what the specific category/cluster in the data is and such inference is drawn by manual/human review.
     
     The quality of the model can be determined using a metric called the c_v coherence metric. Coherence measures the relative distance between words within a topic. The overall coherence score of a topic is the average of the distances between words
 6. Next we analyze the topics through the business lens and determine which of the topics can be combined. While we started with the initial 12 topics. There may be a good amount of overlap between the topics. So we can review if some of the topics could be combined.
+    
     ![pyldavis-1](pyldavis-12-topics.png)
+
 7. Next we can create a refined topic model using LDA with the optimal number of topics as per previous analysis and check the coherence of the new model.
 8. Since the business should be able to interpret the topics per the objective of the project. 
     - Assign a relevant name for each of the identified topics.
     - Create a table with the topic name and the top 10 terms in each topic to present to the business.
     - We have also created a interactive visualization using pyLDAvis library to show the topics and the most popular terms within the topics
+    
     ![pyldavis-2](pyldavis-final-4-topics.png)
-9. Lastly we have created a simple wordcloud to vizualize the most popular and frequent words in the dataset.
-    ![wordcloud](wordcloud-final-words.png)
 
+9. Lastly we have created a simple wordcloud to vizualize the most popular and frequent words in the dataset.
+
+    ![wordcloud](wordcloud-final-words.png)
 ### Tools used:
 This project was completed in Python using Jupyter notebooks.
 Common libraries used for analysis include numpy, pandas, nltk, gensim, matplotlib, pyLDAvis

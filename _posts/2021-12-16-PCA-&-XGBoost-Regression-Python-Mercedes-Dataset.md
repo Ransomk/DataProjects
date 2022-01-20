@@ -38,18 +38,24 @@ Initially we notice the data consists of 377 feature columns.
     - Check for any column(s),if the variance is equal to zero, then we can remove those variable(s)/feature(s).
     This can be done by reviewing if for any column the number of unique values is equal to 1. Then those columns are constant for all the samples in the data and would not have any impact in the prediction of the target variable 'y' 
     - Check for null values and unique values for both the train and test data.  
-    After removing the columns with no variance we are left with 365 columns/features from the original data.
- ![Unique values count in train and test data](unique-values-count.png)
+    After removing the columns with no variance we are left with 365 columns/features from the original data.  
+
+    ![Unique values count in train and test data](unique-values-count.png)
+
 3. Data Pre-processing :  
     There are some columns in the data set which are categorical. For performing PCA these need to be encoded to numerical form. We first find the relevant columns, then proceed to apply label encoding as some of these columns have many unique values which would make one-hot encoding undesirable for this problem as it would generate too many dummy variables.
 4. Dimensionality Reduction :  
    For dimensionality reduction we will use the Principal Component Analysis technique. Principal Component Analysis (PCA) is a statistical procedure that uses an orthogonal transformation that converts a set of correlated variables to a set of uncorrelated variables. PCA is the most widely used tool in exploratory data analysis and in machine learning for predictive models. Moreover, PCA is an unsupervised statistical technique used to examine the interrelations among a set of variables.  
+
    ![PCA_explain_dim_redux](pca-dim-reductions.png)
+
    We use PCA implementation which is part of the sklearn decomposition package.  
    Note: _Before we apply PCA transformation for the data. We need to ensure the data is standardized. Hence we first apply the Standard scaling for the Train and test data and then proceed to apply the PCA transformation._  
    Also PCA transformation by itself does not reduce the number of components. PCA actually expresses all the features/variables in the original data-set as principal components (linear combinations of original features based on the eigen decomposition). We can then select the number of such principal components to reduce the number of dimensions when building models or analysing the data further. Under PCA one can directly specify the number of components you want to extract OR we can mention the minimum amount of the variance of the original data which must be explained by the components.  
    In this case we want to select the reduced number of components such that 95% of the original data variance is explained by the selected principal components. So when applying PCA transformation we set the n_components value to 0.95.
- ![Explained variance cumulative chart for principal componenets](evr-principal-components.png)
+
+    ![Explained variance cumulative chart for principal componenets](evr-principal-components.png)
+
    After running the transformation we see that 149 principal components account for 95% of the information/variance from the original dataset.
 5. Model Building :  
    Build a regression model on the data using XGBoost algorithm using the reduced/transformed version of the data after PCA with reduced features(principal components). The objective is to predict target variable 'y' which is the time taken to test the vehicles(i.e. time spent by the vehicle on the test bench).
@@ -57,7 +63,8 @@ Initially we notice the data consists of 377 feature columns.
     - Next we have done K-fold cross validation using the best parameters model obtained by previous step.
     - Finally we fit the model on the train data and check the overall accuracy. Then predict 'y' using the model on the test data. Note that since test data did not have the 'y' label. We cannot verify the accuracy of the model on the test data.
     - Since we cannot verify the accuracy on test data, we have reviewed the model accuracy on the train data. Reviewed the actual v/s predicted values and same was plotted to visualize the quantity of deviation(error) from the actual y values. 
- ![Error bar chart for model predictions on training data](error-deviations-bar-chart.png)   
+    
+    ![Error bar chart for model predictions on training data](error-deviations-bar-chart.png)   
 
 ### Tools used:
 This project was completed in Python using Jupyter notebooks.
