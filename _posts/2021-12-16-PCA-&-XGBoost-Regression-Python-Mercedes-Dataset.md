@@ -4,11 +4,11 @@ date: 2021-12-16 5:47:00 +0530
 tags: [Machine learning, Python, Principal Component Analysis, Dimensionality Reduction, Label Encoding, numpy, pandas, sklearn, XGBoost Regression, matplotlib]
 comments: false
 img_path: /assets/img/2021-12-16-PCA-&-XGBoost-Regression-Python-Mercedes-Dataset
-image:
-  src: /Pca-gif-explainer.gif
-  width: 778   # in pixels
-  height: 360   # in pixels
-  alt: PCA gif
+# image:
+#   src: /Pca-gif-explainer.gif
+#   width: 778   # in pixels
+#   height: 360   # in pixels
+#   alt: PCA gif
 ---
 
 ### Summary-
