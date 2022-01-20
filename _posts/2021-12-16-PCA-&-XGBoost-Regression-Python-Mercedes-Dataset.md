@@ -1,6 +1,6 @@
 ---
 title: 🔎📊 Principal Component Analysis with XGBoost Regression in Python
-date: 2021-12-16 5:47:00 +0530 
+date: 2021-12-16 17:47:00 +0530 
 tags: [Machine learning, Python, Principal Component Analysis, Dimensionality Reduction, Label Encoding, numpy, pandas, sklearn, XGBoost Regression, matplotlib]
 comments: false
 img_path: /assets/img/2021-12-16-PCA-&-XGBoost-Regression-Python-Mercedes-Dataset
