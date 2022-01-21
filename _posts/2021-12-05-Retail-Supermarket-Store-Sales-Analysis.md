@@ -40,12 +40,13 @@ Walmart runs several promotional markdown events throughout the year. These mark
     - One must note that the total dollar-value of the sales is not a fair comparison between Non-Holiday v/s Holidays. Since Holidays normally have a markdown(discount). Due to the markdown and discounts during holiday the dollar($) amount (Price) of any given product is lesser. 
     - This means that while there could be a possibility that actual units sold were higher during holidays .The final dollar value of the Sales can actually be lesser or equal the Non discounted sales value during the normal period. So this comparison is dependent upon the amount of Holiday discount which is not specified in this analysis/dataset.
 2. Creating a monthly and semester view of sales in units and insights on the same.  
-    <br/>
-    ![Monthwise_sales](11-Monthly-Average-Sales.png){: w="340"} 
-    ![Boxplot_monthly_sales](12-Box-Plot-Monthly-Sales-Analysis.png){: w="340"} 
-    ![Semester_sales](15-Semester-Average-Sales.png){: w="340"} 
-    ![Boxplot_semesterwise_sales](16-Box-Plot-Semester-Sales-Analysis.png){: w="340"}  
-    <br/>
+
+    ![Monthwise_sales](11-Monthly-Average-Sales.png){: w="340" .left}
+    ![Boxplot_monthly_sales](12-Box-Plot-Monthly-Sales-Analysis.png){: w="340" .left} 
+
+    ![Semester_sales](15-Semester-Average-Sales.png){: w="340" .left} 
+    ![Boxplot_semesterwise_sales](16-Box-Plot-Semester-Sales-Analysis.png){: w="340" .left}  
+
     Monthly sales Insights : 
     - The average sales are highest in last part (i.e. months 11 and 12) of the year. January has lowest average sales (923884.6) and December average sales(1281863.6) is the highest. 
 	- Also note that December has a higher Standard Deviation in the sales. The box plot also confirms this as there are plenty of outlier points on the higher side of the scale in December.
@@ -63,7 +64,9 @@ Walmart runs several promotional markdown events throughout the year. These mark
     - Next we have analysed the models for multicollinearity between the variables using VIF. Note that the categorical variables have no VIF data. Run the VIF step algorithm and it eliminates variables which have a collinearity problem using VIF threshold of 5. This results in a final model with only Temperature and CPI. But this model has a very low adjusted R-squared of 0.1012. Again this model does not have any categorical variables as VIF cannot be applied to categorical features. However as per the previous step the best model we could build had a maximum adjusted R-squared of 0.3384.  
     - To conclude the data is insufficient/less or we need other features which would be more significant in terms of predicting the target variable(weekly_sales).    
 5. Hypothesize if CPI, unemployment, and fuel price have any impact on sales.
+
     ![Correlation_pairplot](28-Plot-Weekly-Sales-vs-other-variables.png){: w="700" .normal}  
+
          Our review of the hypothesis revealed that out of CPI, unemployment, and fuel price. Fuel price does not have a significant impact or effect on the target variable (Weekly_Sales). 
     CPI and Unemployment have statistical significance and their coefficients have a low p-value. However with the model having a very low adjusted R-squared (0.06524) this means they can explain very little of the variation in weekly sales. So while they do have an impact on sales however the impact is very weak or low and cannot successfully help predict the target variable.
 6. Conclusions and select the model which gives best accuracy.  

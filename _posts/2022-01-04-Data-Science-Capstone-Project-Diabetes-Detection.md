@@ -37,24 +37,34 @@ Build a model to accurately predict whether the patients in the dataset have dia
         - BMI  
         In this section we load the data and use the describe function of pandas for dataframes to view the quick snapshot of the statistical measures. There are no Nan values in the 768 rows. However as mentioned before we analyse the listed columns for 0 values and note that there are missing i.e.(0) values in all the columns. But for 2 of the columns SkinThickness and Insulin there is a high proportion of missing values.  
         2. Decide how to treat the zero values in these columns - For imputation we need to observe the distribution of the variables to identify if mean or median imputation would be appropriate.
-        3. Visually explore these variables and look for the distribution of these variables using histograms. Treat the missing values accordingly.  
+        3. Visually explore these variables and look for the distribution of these variables using histograms. Treat the missing values accordingly. 
+
         ![histogram](histogram-variables.png)
+
         - We review the skewness of the distributions to decide if the imputation should be using mean or median. If the distribution has less skewness mean imputation can be done. For skewed data the median is more appropriate.
         - Using the rule we have applied mean imputation only for BloodPressure. For the remaining 4 columns median imputation was done for the 0 values.
     2. There are integer as well as float data-type of variables in this dataset. Create a count (frequency) plot describing the data types and the count of variables.
-    ![count plot of data types](count-plot-dtypes.png)
-    3. Check the balance of the data (to review imbalanced classes for the classification problem) by plotting the count of outcomes by their value. Review findings and plan future course of actions.  
-    ![class imbalance](class-imbalance.png)  
-    We notice that there is class imbalance . The diabetic class (1) is the minority class and there are 35% samples for this class. However for the non-diabetic class(0) there are 65% of the total samples present. We need to balance the data using any oversampling for minority class or undersampling for majority class. This would help to ensure the model is balanced across both classes.We can apply the SMOTE (synthetic minority oversampling technique) method for balancing the samples by oversampling the minority class (class 1 - diabetic) as we would want to ensure model more accurately predicts when an individual has diabetes in our problem. 
-    4. Create scatter charts between the pair of variables to understand the relationships. Describe findings.  
-    ![Pair plots](pairplots.png)  
-    We review scatter charts for analysing inter-relations between the variables and observe the following  
-    - Most features do not show any strong correlation or patterns from the scatter plots.
-    - Only the following feature-pairs (BMI and SkinThickness) and (Glucose and Insulin) show some level of positive correlation
-    - Class seperation(Diabetic vs non diabetic) looks better in pairs containing "Glucose" as a feature. This could imply that the feature would contribute more to the classification and be a significant part of the model.
+
+        ![count plot of data types](count-plot-dtypes.png)
+
+    3. Check the balance of the data (to review imbalanced classes for the classification problem) by plotting the count of outcomes by their value. Review findings and plan future course of actions.
+
+        ![class imbalance](class-imbalance.png)  
+
+        We notice that there is class imbalance . The diabetic class (1) is the minority class and there are 35% samples for this class. However for the non-diabetic class(0) there are 65% of the total samples present. We need to balance the data using any oversampling for minority class or undersampling for majority class. This would help to ensure the model is balanced across both classes.We can apply the SMOTE (synthetic minority oversampling technique) method for balancing the samples by oversampling the minority class (class 1 - diabetic) as we would want to ensure model more accurately predicts when an individual has diabetes in our problem. 
+    4. Create scatter charts between the pair of variables to understand the relationships. Describe findings.
+
+        ![Pair plots](pairplots.png)  
+
+        We review scatter charts for analysing inter-relations between the variables and observe the following  
+        - Most features do not show any strong correlation or patterns from the scatter plots.
+        - Only the following feature-pairs (BMI and SkinThickness) and (Glucose and Insulin) show some level of positive correlation
+        - Class seperation(Diabetic vs non diabetic) looks better in pairs containing "Glucose" as a feature. This could imply that the feature would contribute more to the classification and be a significant part of the model.
     5. Perform correlation analysis. Visually explore it using a heat map.
-    ![correlation matrix plots](correlation.png)  
-    Observation : As mentioned in the pairplot analysis the variable Glucose has the highest correlation to outcome.
+
+        ![correlation matrix plots](correlation.png)  
+
+        Observation : As mentioned in the pairplot analysis the variable Glucose has the highest correlation to outcome.
 * ##### Model Building
     1. Devise strategies for model building. It is important to decide the right validation framework. Would Cross validation be useful in this scenario?  
     * **A. Guideline/Main Approach**  
@@ -103,6 +113,7 @@ Build a model to accurately predict whether the patients in the dataset have dia
         - Heatmap of correlation analysis among the relevant variables
         - Create bins of Age values – 20-25, 25-30, 30-35 etc. and analyse different variables for these age brackets using a bubble chart.  
     To view the tableau visualization visit this [Tableau public page link](https://public.tableau.com/views/Capstone-HealthcarePGP-Diabetesdatadashboard/Dashboard1?:language=en-US&:display_count=n&:origin=viz_share_link)
+
     ![Dashboard Tableau](dashboard-tableau.png)
 
 ### Tools used:

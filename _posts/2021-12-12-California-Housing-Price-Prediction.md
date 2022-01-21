@@ -71,7 +71,8 @@ The US Census Bureau has published California Census Data which has 10 types of 
     - Extract just the median_income column from the independent variables (from X_train and X_test).
     - Perform Linear Regression to predict housing values based on median_income.
     - Predict output for test dataset using the fitted model.
-    - Plot the fitted model for training data as well as for test data to check if the fitted model satisfies the test data.<br/>
+    - Plot the fitted model for training data as well as for test data to check if the fitted model satisfies the test data.
+    
     ![Plot of fitted model on Training data](Predicted-regression-line-on-training.png){: w="500"}
     ![Plot of fitted model on Test data](Predicted-regression-line-on-test.png){: w="500"}
 

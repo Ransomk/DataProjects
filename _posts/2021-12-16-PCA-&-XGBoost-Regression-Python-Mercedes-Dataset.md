@@ -21,6 +21,7 @@ Note: _This is an academic project completed by me as part of my Post Graduate p
 
 ### Bussiness Scenario
 ![Benz Logo](Mercedes_Benz_Logo.jpg){: w="450"}  
+
 Since the first automobile, the Benz Patent Motor Car in 1886, Mercedes-Benz has stood for important automotive innovations. These include the passenger safety cell with a crumple zone, the airbag, and intelligent assistance systems. Mercedes-Benz applies for nearly 2000 patents per year, making the brand the European leader among premium carmakers. Mercedes-Benz is the leader in the premium car industry. With a huge selection of features and options, customers can choose the customized Mercedes-Benz of their dreams.  
 To ensure the safety and reliability of every unique car configuration before they hit the road, the company’s engineers have developed a robust testing system. As one of the world’s biggest manufacturers of premium cars, safety and efficiency are paramount on Mercedes-Benz’s production lines. However, optimizing the speed of their testing system for many possible feature combinations is complex and time-consuming without a powerful algorithmic approach.  
 We are required to reduce the time that cars spend on the test bench. Then we will work with a dataset representing different permutations of features in a Mercedes-Benz car to predict the time it takes to pass testing. Optimal algorithms will contribute to faster testing, resulting in lower carbon dioxide emissions without reducing Mercedes-Benz’s standards.
@@ -63,7 +64,7 @@ Initially we notice the data consists of 377 feature columns.
     - Next we have done K-fold cross validation using the best parameters model obtained by previous step.
     - Finally we fit the model on the train data and check the overall accuracy. Then predict 'y' using the model on the test data. Note that since test data did not have the 'y' label. We cannot verify the accuracy of the model on the test data.
     - Since we cannot verify the accuracy on test data, we have reviewed the model accuracy on the train data. Reviewed the actual v/s predicted values and same was plotted to visualize the quantity of deviation(error) from the actual y values. 
-    
+
     ![Error bar chart for model predictions on training data](error-deviations-bar-chart.png)   
 
 ### Tools used:
